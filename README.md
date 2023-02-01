@@ -3,3 +3,4 @@ The Feedback App is a user-friendly and intuitive rating service, built with Rea
 With the React framework, the app is fast, responsive, and offers a seamless user experience. The Context API provides a powerful and flexible mechanism for managing data and state, making it easy for users to provide their feedback.
 
 So if you're looking for a reliable, easy-to-use, and customizable feedback service, this Feedback App is the solution you need.
+To access our app please visit the link https://feedbacks-ui. netlify.app/

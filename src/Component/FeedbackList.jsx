@@ -17,7 +17,7 @@ const {feedback}=useContext(FeedbackContext)
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            layout
+            // layout
             >
             <FeedbackItem key={item.id} item={item}  />
             </motion.div>

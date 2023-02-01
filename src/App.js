@@ -9,6 +9,7 @@ import FeedbackForm from './Component/FeedbackForm'
 import FeedbackData from './data/FeedbackData';
 import FeedbackList from './Component/FeedbackList';
 import About from './Component/About';
+import AboutIconLink from './Component/AboutIconLink';
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
   const deleteFeedback=(id)=>{
@@ -32,6 +33,7 @@ function App() {
               <FeedbackForm handleAdd={addFeedback}/>
               <FeedbackStats feedback={feedback} />
               <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
+              <AboutIconLink />
           </>
           }></Route>
             <Route path="/about" element={<About />} />

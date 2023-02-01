@@ -5,10 +5,10 @@ function RatingSelect({ select, selected }) {
   // also no real need for useEffect or context
   const {feedbackEdit } =useContext(FeedbackContext)
   const handleChange = (e) => {
-    select(+e.currentTarget.value)
+    selected(+e.currentTarget.value)
   }
 useEffect(() => {
-    select(feedbackEdit.item.rating)
+    selected(feedbackEdit.item.rating)
   }, [feedbackEdit])
   // NOTE: simplified with iteration
   return (

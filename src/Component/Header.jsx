@@ -1,5 +1,5 @@
 import PropTypes from "prop-types"
-import { Link } from "react"
+// import { Link } from "react-roter-dom"
 
 function Header({ text, bgColor, textColor }) {
   const headerStyles = {
